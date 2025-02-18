@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root{
+  /* hue situation lightness alpha */
+
+  --primary-color: hsla(203 ,100% ,13% ,1);
+  --secondary-color: hsl(330 87% 17%);
+  --fruit-color: tomato;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{    
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  position: relative;
+  height: 75vh;
+
+}
+
+/* Start Header Section */
+
+
+/* Start Nav Bar */
+.brand{
+  color: #F16022;
+}
+
+.navbar{
+  padding: 20px 30px;
+
+  transition: all 0.7s;
+  border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.menu-items{
+  color: #000;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-right: 1px solid rgba(0,0,0,0.3);
+
+  transition: all 0.5s;
+}
+
+.menu-items:hover{
+  color: skyblue;
+}
+
+.crossxs .lines1{
+  transform: rotate(-45deg) translate(-6px,6px);
+}
+
+.crossxs .lines2{
+  opacity: 0;
+}
+
+.crossxs .lines3{
+  transform: rotate(45deg) translate(-6px,-6px);
+}
+
+#search{
+  width: 450px;
+}
+
+/* End Nav Bar */
+
+/*Start discount section */
+/* Start digital clock*/
+/* digital clock */
+.countdown {
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.countdown span{
+  padding: 15px 20px;
+  background-color: #fff;
+  font-size: 18px;
+
+  border-radius: 10px;
+}
+/* End digital clock*/
+
+.discount-section{
+  width: 102%;
+
+  position: absolute;
+  top: 63%;
+  left: 50%;
+
+  transform: translate(-50%,-50%);
+}
+
+.discount{
+  width: 102%;
+}
+
+/*End discount section */
