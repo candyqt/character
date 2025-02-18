@@ -24,7 +24,7 @@ body{
 header{
   position: relative;
   height: 75vh;
-
+  margin-bottom: 50px;
 }
 
 /* Start Header Section */
@@ -106,3 +106,52 @@ header{
 }
 
 /*End discount section */
+
+/* Start Instock */
+.fa-heart{
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  color: #F16022;  
+
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  
+}
+
+.heart:hover{
+  background-color: #F16022;
+}
+
+.heart:hover .fa-heart{
+  color: #f4f4f4;
+}
+
+.heart{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+
+  text-align: center;
+  background-color: rgba(0,0,0,0.1);
+
+}
+
+.heart-bottom{
+  bottom: -43px;
+  right: 43px;
+}
+
+
+/* End Instock */
+
+/*Start Luffy container*/
+
+/*End Luffy container*/
+
+.text-shadow-sm {
+  text-shadow: -3px 3px 6px rgba(0, 0, 0, 0.4);
+}
+
