@@ -23,8 +23,6 @@ body{
 
 header{
   position: relative;
-  height: 75vh;
-  margin-bottom: 50px;
 }
 
 /* Start Header Section */
@@ -55,6 +53,12 @@ header{
   color: skyblue;
 }
 
+.lines1,.lines2,.lines3{
+  width: 25px;
+  height: 3px;
+  margin: 6px;
+}
+
 .crossxs .lines1{
   transform: rotate(-45deg) translate(-6px,6px);
 }
@@ -67,9 +71,70 @@ header{
   transform: rotate(45deg) translate(-6px,-6px);
 }
 
-#search{
-  width: 450px;
+.form-control{
+  width: 100%;
 }
+
+.nav-link{
+  color: #fff;
+}
+.nav-item:hover{
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+.nav-item:hover .navlink{
+  color: #000;
+}
+
+
+.nav-item {
+  color: white; 
+}
+
+.nav-link:hover,
+.nav-link:hover .nav-item {
+  color: black; 
+}
+
+.nav-link:hover .uparrow {
+  color: black; 
+}
+
+/* Start Search Bar */
+.search-bar {
+  position: relative;
+  max-width: 400px;
+}
+
+.search-bar input {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.search-bar .magnify-icon,
+.search-bar .clear-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  cursor: pointer;
+}
+
+.search-bar .magnify-icon {
+  left: 10px;
+}
+
+
+.search-bar .clear-icon {
+  right: 10px;
+  display: none;
+}
+
+.dropdown-menu:hover .show{
+  color: #000;
+}
+/* End Search Bar */
 
 /* End Nav Bar */
 
@@ -91,15 +156,15 @@ header{
 }
 /* End digital clock*/
 
-.discount-section{
+/* .discount-section{
   width: 102%;
 
   position: absolute;
-  top: 63%;
+  top: 70%;
   left: 50%;
 
   transform: translate(-50%,-50%);
-}
+} */
 
 .discount{
   width: 102%;
@@ -148,7 +213,14 @@ header{
 /* End Instock */
 
 /*Start Luffy container*/
+.responsive:hover{
+  transform: scale(1.1);
+  overflow: hidden;
+}
 
+.responsive{
+  border-radius: 5px;
+}
 /*End Luffy container*/
 
 .text-shadow-sm {
